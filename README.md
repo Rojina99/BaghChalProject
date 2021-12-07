@@ -82,7 +82,7 @@ Where we can choose between options
         ]
 ```
         
-        `
+        ```
         
         The first option is used to generate data only.
         The second option is used to train both pretrain model with collected data and self play model.
@@ -93,7 +93,7 @@ Where we can choose between options
         The seventh option is used to evaluate result of previously trained model.
         The eigth option is used to get out of the main loop.
         
-        `
+        ```
 
 Here, since we have trained collected and trained data we can
 
