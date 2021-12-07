@@ -23,7 +23,7 @@ We also have self created humanplayerdata. The directory structure fo human play
                 -------------->humanplayerdata
    ```
    
-It might take a while to generate this data so we have also uploaded the data in dropbox which can be inserted inside project folder into the structure mentioned above.
+It might take a while to generate this data so we have also uploaded the data in dropbox which can be inserted inside project folder into the structure mentioned above with code for BaghChal Project.
 
 The link to dropbox is 
 
@@ -92,7 +92,7 @@ Where we can choose between options
         The second option is used to train both pretrain model with collected data and self play model.
         The third option is used to load previously trained pretrain model and self play model.
         The fourth option is used to generate data and train pretrain and self play model. This is if we want to start all the baghchal data collection and training process from scratch.
-        The fifth option is used to train self play mcts model without pretrain model and colledted data.
+        The fifth option is used to train self play mcts model without pretrain model and collected data.
         The sixth option is used to play baghchal using information from mcts network.
         The seventh option is used to evaluate result of previously trained model.
         The eigth option is used to get out of the main loop.
@@ -104,4 +104,5 @@ Here, since we have trained collected and trained data we can
 run `python main.py` 
 and `select option 5`.
 
-But before that we have to download all the required data and place it in BaghChal project folder.
+But before that we have to download all the required data and place it in BaghChal project folder which has the main code and is provided in the dropbox link above. 
+
