@@ -1,6 +1,6 @@
-# BaghChalProjectBaghChal with MCTS
+# BaghChal Project with MCTS
 
-Welcome to the Sartorius project. Project Members: Hem Regmi https://github.com/hregmi77 , Rojina Panta
+Welcome to BaghChal project. Project Members: Hem Regmi https://github.com/hregmi77 , Rojina Panta
 
 # Data Generation
 
@@ -35,28 +35,6 @@ And this trained network is again trained with MCTS algorithm during self play.
 
 For this we run code main_baghchall_all.py
 
-# Evaluation Network
-
-For the evaluation of previously trained network we use evaluate_baghchal.py which saves the result of player currently playing (Tiger or Goat), which player won the game and the algorith with which trained mcts is playing. 
-
-
-Here, we have three main files CollectObservations.py which collects data for pretraining neural network, main_baghchal_all.py which
-is the core file of the project that collects data, pretrains model and run self play.
-
-Then the other file is evlauate_baghchal.py with which we can evaluate the model that has been trained.
-With play_baghchal_game.py we can play trained mcts with untrained minmax, untrained random player and untrained mcts.
-
-The directory structure after CollectObservations.py will be
-
-        ---------->BaghChaalProject
-                 ------------>BaghAsMinMax_GoatAsMinMax
-                 ------------>BaghAsMinMax_GoatAsRandom
-                 ------------>GoatAsMinMax_BaghAsRandom
-
-We also have self curated humanplayerdata. The directory structure fo human player data will be 
-        ------------>BaghChaalProject
-                -------------->humanplayerdata
-
 The models that are trained with collected data and self play data are saved in models directory
         ---------->BaghChaalProject
                  ----->models
@@ -64,11 +42,23 @@ The models that are trained with collected data and self play data are saved in 
                         ----->pretrain_model # for model trained with collected data
                         ----->self_play_model # for model trained with mcts self play with or without pretrained model
                         
-The data trained with selfplay model is saved in folder selfplay_data
-The data trained with selfplay model is saved in folder selfplay_data_only
+It might ake a while to generate this data so we have also uploaded the data in drive which can be inserted inside project folder int the structure mentioned above.
+
+The data trained with selfplay model is saved in folder selfplay_data.
 
 
-Firstly create environmet usinf eirher requirement.txt or environment.yml file.
+# Evaluation Network
+
+For the evaluation of previously trained network we use evaluate_baghchal.py which saves the result of player currently playing (Tiger or Goat), which player won the game and the algorith with which trained mcts is playing. 
+
+We also can play game of baghchal using play_baghchal_game.py.
+
+Here trained MCTS plays with minmax, untrained mcts or random player. And the trained MCTS suggests plays accordingly.
+
+                      
+# Steps to run the code
+
+Firstly create environmet using eirher requirement.txt or environment.yml file.
 
 We can run the code by running main.py
 
@@ -84,6 +74,8 @@ Where we can choose between options
             "Exit",
         ]
         
+        `
+        
         The first option is used to generate data only.
         The second option is used to train both pretrain model with collected data and self play model.
         The third option is used to load previously trained pretrain model and self play model.
@@ -92,11 +84,11 @@ Where we can choose between options
         The sixth option is used to play baghchal using information from mcts network.
         The seventh option is used to evaluate result of previously trained model.
         The eigth option is used to get out of the main loop.
+        
+        `
 
 Here, since we have trained collected and trained data we can
 
 run python main.py and select option 5.
 
-But before than we have to downloadd all the required data which can be downloaded from following link.
-
-But for that we will have to download data from ggogle drive and place it in BaghChal folder.
+But before than we have to downloadd all the required data and place it in BaghChal project folder.
