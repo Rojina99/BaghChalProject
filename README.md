@@ -68,6 +68,8 @@ Firstly create environmet using eirher requirement.txt or environment.yml file.
 We can run the code by running main.py
 
 Where we can choose between options
+
+```
         [
             "Generate Data",
             "Train both pretrain model and self play model",
@@ -78,6 +80,7 @@ Where we can choose between options
             "Evaluate model",
             "Exit",
         ]
+```
         
         `
         
