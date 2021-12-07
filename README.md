@@ -36,11 +36,16 @@ And this trained network is again trained with MCTS algorithm during self play.
 For this we run code main_baghchall_all.py
 
 The models that are trained with collected data and self play data are saved in models directory
+        ```
+        
+        
         ---------->BaghChaalProject
                  ----->models
                     ----->model
                         ----->pretrain_model # for model trained with collected data
                         ----->self_play_model # for model trained with mcts self play with or without pretrained model
+                        
+          ```
                         
 It might ake a while to generate this data so we have also uploaded the data in drive which can be inserted inside project folder int the structure mentioned above.
 
