@@ -9,19 +9,19 @@ The data is generated using minmax algorithm and random player.
 
 The directory structure after CollectObservations.py will be
 
-`
+```
         ---------->BaghChaalProject
                  ------------>BaghAsMinMax_GoatAsMinMax
                  ------------>BaghAsMinMax_GoatAsRandom
                  ------------>GoatAsMinMax_BaghAsRandom
  
- `
+ ```
 
 We also have self curated humanplayerdata. The directory structure fo human player data will be 
-  `      
+  ```      
         ------------>BaghChaalProject
                 -------------->humanplayerdata
-   `
+   ```
    
 It might ake a while to generate this data so we have also uploaded the data in drive which can be inserted inside project folder int the structure mentoned above.
 
