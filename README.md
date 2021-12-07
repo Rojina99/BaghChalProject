@@ -23,7 +23,11 @@ We also have self curated humanplayerdata. The directory structure fo human play
                 -------------->humanplayerdata
    ```
    
-It might ake a while to generate this data so we have also uploaded the data in drive which can be inserted inside project folder int the structure mentoned above.
+It might take a while to generate this data so we have also uploaded the data in dropbox which can be inserted inside project folder into the structure mentioned above.
+
+The link to dropbox is 
+
+[Link to Dropbox] (https://www.dropbox.com/sh/sxu6msufgph6so7/AAAocWfZe1hp0qzN-y7kiSKpa?dl=0&fbclid=IwAR263VWbwS0SkCGCFcHiVcZcxxFRq7l7oCn1Xk-jMahMDo2b9KEgO0cpeC4)
 
 This data is used for pretraining neural network.
 
@@ -47,7 +51,7 @@ The models that are trained with collected data and self play data are saved in 
                         
           ```
                         
-It might ake a while to generate this data so we have also uploaded the data in drive which can be inserted inside project folder int the structure mentioned above.
+The dropbox link metioned earlier also have model file.
 
 The data trained with selfplay model is saved in folder selfplay_data.
 
@@ -99,4 +103,4 @@ Here, since we have trained collected and trained data we can
 
 run python main.py and select option 5.
 
-But before than we have to downloadd all the required data and place it in BaghChal project folder.
+But before than we have to download all the required data and place it in BaghChal project folder.
