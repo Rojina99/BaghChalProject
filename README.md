@@ -104,4 +104,4 @@ Here, since we have trained collected and trained data we can
 run `python main.py` 
 and `select option 5`.
 
-But before than we have to download all the required data and place it in BaghChal project folder.
+But before that we have to download all the required data and place it in BaghChal project folder.
